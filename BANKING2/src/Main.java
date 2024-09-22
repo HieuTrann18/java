@@ -14,6 +14,7 @@ public class Main {
         for(Employee e : employees){
             e.displayInfo();
         }
+        
         Employee highestSalary = employees[0];
 
         for(Employee emp :employees){
